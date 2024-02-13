@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:  #003251;
+    color: white;
+    line-height: 1.4;
+    
+}
+/* ---------------Section---------- */
+section{
+    margin-left: 60px;
+    padding-top: 10px;
+    
+}
+section li{
+    font-size: 13px;
+    font-weight: 300;
+    padding-block: 2.5px;
+    list-style-type:square;
+}
+section h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(57, 57, 251);
+    margin-bottom:5px;
+
+}
+nav{
+    background-color: lightseagreen;
+    width: 1000px;
+    padding: 10px;
+    padding-right: 20%;
+    padding-left: 20px;  
+    
+}
+ nav .container1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.link1 ul{
+    display: flex;
+    gap: 20px;
+}
+.link1 a{
+    text-decoration: none;
+}
+.link1 li{
+    list-style: none;
+    font-size: 17px;
+    font-weight: 300;
+    color: white;
+}
+
+.port h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+/* --------------------------About---------------- */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+   
+}
+.container .logo img{
+    height: 50vh;
+    width: 70%;
+}
+#home{
+    border-bottom: 3px solid black;
+    padding-bottom: 30px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.name{
+    padding-right: 100px;
+}
+.name h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.first{
+    font-size: 2.5rem;
+    color: yellow;
+}
+.second{
+    font-size:2rem;
+}
+.name h2{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+.line{
+    border: 1px solid blue;
+    margin-top: 40px;
+}
+/* --------Skills----------- */
+/* .middle{ */
+    /* margin-left: 60px; */
+    /* font-size: 15px;
+    font-weight: 300; */
+    /* margin-top: 50px; */
+    /* padding-top: 10px; */
+/* } */
+/* .middle h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(57, 57, 251);
+    /* color: black; */
+/* } */ 
+/*  li{
+    list-style-type:square;   
+}*/
+/* --------------Project---------- */
+ .project img{
+    height: 30vh;
+    width: 50%;
+}
+
+.middle2{
+    width: 50%;
+}
+/* .middle2 h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(57, 57, 251);
+    margin-bottom: 10px;
+} */
+.middle2 h3{
+    font-size: 18.5px;
+    color:rgb(150, 133, 133);
+    font-weight: 600;
+}
+.middle2 p{
+    font-size: 10px;
+    font-weight: 300;
+    padding-bottom: 10px;
+    word-spacing:3px;
+}
+/* ----------Contact--- */
+/* .info{
+    margin-left: 60px;
+    padding-top: 10px;
+} */
+.info h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(57, 57, 251);
+    margin-bottom:5px;
+}
+.info p{
+    font-size: 16px;
+    font-weight: 300;
+    padding-bottom: 3px;
+}
+/* ------------Resume------- */
+.resume h2{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(57, 57, 251);
+    margin-bottom:5px;
+
+}
+
+
+/* -------------Footer------ */
+.footer p{
+    font-size: 16px;
+    font-weight: 300;
+    /* padding-bottom: 3px; */
+    padding-top: 5px; 
+    text-align: center;
+
+
+
+
+
+
+}
